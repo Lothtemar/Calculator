@@ -1,0 +1,42 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-cnt{
+    width: 400px;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    border: 1px solid black;
+}
+.calculator-cnt div{
+    border: 1px solid black;
+}
+
+.calculator-scr{
+    background-color: rgb(224, 224, 224);
+    width: 60%;
+    height: 1.5rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.grid-cnt{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    margin: 1px 1px 1px 1px
+}
+.grid-cnt div{
+    text-align: center;
+    margin: 1px 1px 1px 1px
+}
